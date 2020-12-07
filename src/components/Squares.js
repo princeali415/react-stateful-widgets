@@ -24,7 +24,7 @@ export default function Squares() {
   // 'activeSquare'. One holds the _array_ of square ids, and the other keeps track
   // of the currently active square. On page load there's no active square,
   // so the value of 'activeSquare' should be null.
-  const [sqaures, setSquares] = useState(listOfSquareIds)
+  const [sqaures] = useState(listOfSquareIds)
   const [activeSqaures, setActiveSqaures] = useState(null)
 
 
